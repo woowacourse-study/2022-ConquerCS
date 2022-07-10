@@ -75,4 +75,4 @@ DNS와 DHCP는 TCP가 아닌 UDP를 사용한다.
 # 참조
 [[TCP/UDP] TCP와 UDP의 특징과 차이](https://mangkyu.tistory.com/15)
 
-[](https://coding-factory.tistory.com/614)
+[[Network] TCP / UDP의 개념과 특징, 차이점](https://coding-factory.tistory.com/614)
