@@ -8,8 +8,6 @@
 - [L4의 부하 분산 방법 (tistory.com)](https://ktdsoss.tistory.com/440)
 - [로드 밸런싱에 대해 알아보자! (techcourse.co.kr)](https://tecoble.techcourse.co.kr/post/2021-11-07-load-balancing/)
 
-
-
 ### 등장 배경
 
 - 웹사이트 접속 인원의 증가로 1대의 서버가 트래픽을 감당할 수 없음
@@ -45,11 +43,7 @@
 - Load Balancer 역시 문제가 생길 수 있음 → Load Balancer도 이중화
   - Active / Passive
 
-
-
 ---
-
-
 
 ### 예상질문
 
