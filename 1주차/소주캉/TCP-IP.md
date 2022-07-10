@@ -33,9 +33,10 @@
 ### 흐름 제어(Flow Control)
 - 송신측의 속도가 수신측의 읽기(Read) 속도보다 빠를 경우 문제가 생긴다.
 - 이를 위해 송신측의 데이터 전송량을 수신측에 따라(Window Size) 조절한다.
-- 일반적의로 Stop and Wait과 Sliding Window를 통해 제어한다.
+- 일반적으로 Stop and Wait과 Sliding Window를 통해 제어한다.
   - Stop and Wait: 적절한 ACK 신호를 받지 못한 경우 송신측에서 데이터를 보내지 않고 대기한다.
   - Sliding Window: 수신측에서 보낸 Window Size 만큼 확인 응답없이 세그먼트를 전송할 수 있게 하여 데이터 흐름을 동적으로 조절한다.
+    - ACK 응답이 Wait timeout 될 경우 Sliding Window 크기의 반으로 줄여 segment를 전송하고 이때 성공할 경우 +1 씩 늘려가며 회복한다. 따라서 한 번 흐름 제어에 들어선 경우 성능 오버헤드가 크다.
   
 ### 혼잡 제어(Congestion Control)
 - 네트워크의 처리 지연으로 중복된 요청이 발생할 경우 송신측에서 보내는 데이터 전송속도를 조절하는 것을 말한다.
