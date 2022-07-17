@@ -1,0 +1,20 @@
+# I/O
+- 입출력은 커널 레벨에서만 수행 가능 -> Process/Thread는 커널에게 I/O를 요청해야 한다. 
+
+## Blocking I/O
+
+- Process/Thread가 커널에게 I/O를 요청하는 함수(`recvfrom`)을 호출
+- 커널은 작업이 완료된 후 작업 결과를 반환
+
+- 커널 작업 중에 Process/Thread가 작업을 중단하고 대기
+- 커널 작업 중 CPU가 유휴 상태로 있어서 리소스 낭비 발생
+- 한 클라이언트의 작업이 I/O 호출로 인해 중단되어도 다른 클라이언트의 작업이 수행되어야 하므로 클라이언트마다 Thread를 생성해야 한다. 
+
+
+## Non-Blocking I/O
+
+- Process/Thread가 커널에게 I/O를 요청하는 함수(`recvfrom`)을 호출
+- 커널은 즉시 `EWOULDBLOCK`를 반환
+- 커널 작업이 완료된 후 작업 결과를 반환
+
+- 커널 작업 중에도 Process/Thread가 작업을 진행
