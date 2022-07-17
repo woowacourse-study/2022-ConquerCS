@@ -12,7 +12,7 @@
 
 
 
-![Untitled](C:\YJ\wooteco\workspace\level3\study\2022-ConquerCS\2주차\포키\images\tls_ssl_handshake.png)
+![Untitled](./images/tls_ssl_handshake.png)
 
 
 
@@ -42,8 +42,6 @@
 
 
 ---
-
-### 
 
 ### 예상 질문
 
