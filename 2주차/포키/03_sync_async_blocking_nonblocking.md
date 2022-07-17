@@ -6,7 +6,7 @@
 
 호출된 함수 = B
 
-# 
+ 
 
 # Blocking/Non-blocking
 
@@ -21,7 +21,7 @@
 
 > I/O 작업을 위해서는 Process, Thread가 Kernel에게 요청해야 함
 
-### 
+
 
 ### Blocking I/O
 
@@ -57,7 +57,7 @@
 
 # 4가지 경우
 
-![Untitled](C:\YJ\wooteco\workspace\level3\study\2022-ConquerCS\2주차\포키\images\sync_async_blocking_nonblocking.png)
+![Untitled](./images/sync_async_blocking_nonblocking.png)
 
 > 엄마: 밥차리는 중, 나: 밥 먹으려고 기다리는 중
 
@@ -93,7 +93,6 @@
 
 ---
 
-### 
 
 ### 예상 질문
 
