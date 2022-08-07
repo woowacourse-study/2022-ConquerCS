@@ -4,7 +4,7 @@
 
 ## 종류
 
-![system_call.png](C:\YJ\wooteco\workspace\level3\study\2022-ConquerCS\5주차\포키\images\system_call.png)
+![system_call.png](./images/system_call.png)
 
 - Process Control
   - 프로세스 생성, 종료
