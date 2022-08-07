@@ -17,7 +17,7 @@
   - LIFO(높은 메모리 주소 → 낮은 메모리 주소)
   - thread마다 각각 할당
 
-![](C:\YJ\wooteco\workspace\level3\study\2022-ConquerCS\5주차\포키\images\process_memory.png)
+![](./images/process_memory.png)
 
 Stack 메모리와 Heap 메모리 사이에는 여유 공간이 있고, 런타임에 차례대로 주소값 할당
 
