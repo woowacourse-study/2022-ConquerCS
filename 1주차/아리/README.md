@@ -1,4 +1,0 @@
-- [OSI 7계층](https://github.com/ulimy/2022-ConquerCS/blob/main/1주차/아리/OSI%207계층.md)
-- [TCP & UDP](https://github.com/ulimy/2022-ConquerCS/blob/main/1주차/아리/TCP&UDP.md)
-- [공통키&공개키](https://github.com/ulimy/2022-ConquerCS/blob/main/1주차/아리/공통키&공개키.md)
-- [로드밸런싱](https://github.com/ulimy/2022-ConquerCS/blob/main/1주차/아리/로드밸런싱.md)
